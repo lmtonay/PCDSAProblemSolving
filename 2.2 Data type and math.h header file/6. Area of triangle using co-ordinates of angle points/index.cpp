@@ -20,5 +20,5 @@ int main()
   s3 = distance(x2, y2, x3, y3);
   s = (s1 + s2 + s3) / 2;
   area = sqrt(s * (s - s1) * (s - s2) * (s - s3));
-  cout << area << s1 << s2 << s3 << endl;
+  cout << area << endl;
 }
